@@ -1,0 +1,67 @@
+
+
+html 
+{
+
+background: url("http://echostains.files.wordpress.com/2009/03/william_morris-willow-bough-wallpaper1.jpg") ;
+}
+
+#container{
+	background: #ffffff; 
+	width: 80%;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0px;
+	text-align:center;
+	//border: 3px solid green;
+}
+
+#banner{
+	background: url("guldram.gif");
+	background-size: cover ; max-width: 730px; no-rep;
+	
+	height: 530px;
+	width: container;
+	background-position: center;
+	margin-bottom: 20px;
+	//border: 3px solid red;
+	margin: 0px auto;
+}
+
+img.ögon{
+padding-top: 100px;
+width: 38%;
+}
+
+
+#menu{
+	text-align: center;
+	width: container;
+	height: 200px;
+	overflow: hidden;
+	/*margin: 10 px;
+	padding: 50px;
+	
+	border: 3px solid red;
+	*/
+	}
+	
+ul{
+	margin: 0 auto;
+	list-style-type: center; center;
+}
+
+li {
+display:inline; 
+}
+
+img.botimg {
+width:40%;
+}
+
+img.botimg:hover {
+width: 45%;
+cursor:pointer;
+overflow: hidden;
+}
+

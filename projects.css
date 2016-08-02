@@ -1,0 +1,60 @@
+html
+{
+font-family: dayton; 
+font-size: 20px;
+}
+
+html 
+{
+overflow: hidden;
+background: url("http://echostains.files.wordpress.com/2009/03/william_morris-willow-bough-wallpaper1.jpg") ;
+}
+
+#container{
+	background: #ffffff; 
+	width: 80%;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0px;
+	text-align:center;
+}
+
+#banner{
+	background-size: cover ; max-width: 730px; no-rep;
+	height: 200px;
+	width: container;
+	background-position: center;
+	margin-bottom: 20px;
+	//border: 3px solid red;
+	margin: 0px auto;
+}
+
+
+img.projects-img{
+padding-top: 0px;
+width: 300px;
+}
+
+
+#menu{
+	text-align: center;
+	width: 100%;
+	margin: 0px auto;
+	}
+	
+ul{
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+li {
+display:inline;
+}
+
+img.botimg {
+width:35%;
+}
+
+p.foot-note{
+	font-size:12px;
+}
