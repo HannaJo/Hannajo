@@ -1,0 +1,61 @@
+
+.wrapper{
+
+    height: 700px;
+    width: 700px;
+    margin: 25px auto;
+    position: relative;
+
+}
+
+.myDiv {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 50px;
+    border-radius: 100%;
+    background: rgb(114, 109, 185);
+    margin:  auto;
+    transition: all 1s;
+    top:0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+    line-height: 500px;
+}
+
+
+
+.circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    background: rgb(255, 128, 192);
+    margin: auto;
+    transition: all 1s;
+    top: 350;
+    position: absolute;
+    left: 0;
+    right: 0;
+    mix-blend-mode: difference;
+    opacity: 0.5;
+    text-align: center;
+    color: black;
+    line-height: 150px;
+}
+
+.fadeingText{
+}
+
+
+.wrapper:hover .myDiv{
+     top: 262.5px;
+}
+
+.wrapper:hover .circle{
+    top:87.5px;
+}
+
+.wrapper:hover .fadeingText{
+}
