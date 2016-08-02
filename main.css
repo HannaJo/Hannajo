@@ -28,7 +28,7 @@ background: url("http://echostains.files.wordpress.com/2009/03/william_morris-wi
 	margin: 0px auto;
 }
 
-img.ögon{
+.ogon{
 padding-top: 100px;
 width: 38%;
 }
@@ -55,12 +55,13 @@ li {
 display:inline; 
 }
 
-img.botimg {
+.botimg {
 width:40%;
 }
 
-img.botimg:hover {
-width: 45%;
+.botimg:hover {
+transform: scale(1.2);
+-webkit-transform: scale(1.2);
 cursor:pointer;
 overflow: hidden;
 }
