@@ -31,21 +31,22 @@
     width: 350px;
     height: 350px;
     border-radius: 100%;
-    background: rgb(255, 128, 192);
+    background: rgba(255, 128, 192, 0.5);
     margin: auto;
     transition: all 1s;
     top: 350;
     position: absolute;
     left: 0;
     right: 0;
-    mix-blend-mode: difference;
-    opacity: 0.5;
+    opacity: 1;
     text-align: center;
-    color: black;
+    color: white;
     line-height: 150px;
 }
 
 .fadeingText{
+    opacity: 0;
+  transition: all 506.14ms 493.953ms;
 }
 
 
@@ -58,4 +59,5 @@
 }
 
 .wrapper:hover .fadeingText{
+    opacity: 1;
 }
