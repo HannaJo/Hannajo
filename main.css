@@ -16,21 +16,24 @@ background: url("http://echostains.files.wordpress.com/2009/03/william_morris-wi
 	//border: 3px solid green;
 }
 
-#banner{
-	background: url("guldram.gif");
-	background-size: cover ; max-width: 730px; no-rep;
-	
-	height: 530px;
-	width: container;
-	background-position: center;
-	margin-bottom: 20px;
-	//border: 3px solid red;
-	margin: 0px auto;
+.ogon{
+    margin-top: 116px;
+    margin-bottom: 128px;
+    width: 28%;
 }
 
-.ogon{
-padding-top: 100px;
-width: 38%;
+.noLinkUnderline {
+ text-decoration: none;   
+}
+
+#banner{
+	background: url("guldram.gif");
+	background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    
+	width: 80%;
+	margin: 0px auto;
 }
 
 
