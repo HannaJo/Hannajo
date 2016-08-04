@@ -1,8 +1,9 @@
-body {
-    font-family: Quicksand -system Helvetica 'San fransico';
+body, a, p {
+    font-family: Quicksand, system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
     font-display: swap;
+    font-style: normal;
+    font-weight: 400;
 }
-
 
 .wrapper{
     height: 700px;
