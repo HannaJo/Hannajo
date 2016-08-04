@@ -1,54 +1,49 @@
+body {
+    font-family: Quicksand -system Helvetica 'San fransico';
+    font-display: swap;
+}
+
 
 .wrapper{
-
     height: 700px;
     width: 700px;
     margin: 25px auto;
     position: relative;
-
 }
 
-.myDiv {
+.circle {
     width: 350px;
     height: 350px;
-    margin-bottom: 50px;
     border-radius: 100%;
-    background: rgb(114, 109, 185);
-    margin:  auto;
+    margin: auto;
     transition: all 1s;
     top:0;
     position: absolute;
     left: 0;
     right: 0;
     text-align: center;
+}
+
+.portfolioCircle {
+    margin-bottom: 50px;
+    background: rgb(114, 109, 185);
     line-height: 500px;
 }
 
 
-
-.circle {
-    width: 350px;
-    height: 350px;
-    border-radius: 100%;
+.meCircle {
     background: rgba(255, 128, 192, 0.5);
-    margin: auto;
-    transition: all 1s;
     top: 350;
-    position: absolute;
-    left: 0;
-    right: 0;
-    opacity: 1;
-    text-align: center;
     line-height: 150px;
 }
 
 
 
-.wrapper:hover .myDiv{
+.wrapper:hover .portfolioCircle{
      top: 262.5px;
 }
 
-.wrapper:hover .circle{
+.wrapper:hover .meCircle{
     top:87.5px;
 }
 
@@ -58,7 +53,6 @@
     color: white;
     opacity: 0;
     transition: all 0.2s 0s;
-    font-family: Quicksand;
     font-size: 20px;
     font-style: normal;
     font-variant: normal;
@@ -74,3 +68,20 @@
     text-decoration: underline;
 }
 
+
+.portfolio .portfolioCircle {
+   transform: scale(10);
+}
+
+.about .meCircle {
+    transform: scale(10);
+}
+
+.about .wrapper .portfolioCircle {
+    top: 100vh;
+}
+
+.portfolio .wrapper .meCircle {
+    top: -100vh;
+
+}
