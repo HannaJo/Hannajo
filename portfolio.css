@@ -5,17 +5,20 @@ body, a, p {
     font-weight: 400;
 }
 
+
 .wrapper{
-    height: 700px;
-    width: 700px;
-    margin: 25px auto;
+    height: 100%;
+    width: 100%;
+    /* margin: 25px auto; */
+    margin: 0;
     position: relative;
+    /* background: blue; */
 }
 
 .circle {
-    width: 350px;
-    height: 350px;
-    border-radius: 100%;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 10000px;
     margin: auto;
     transition: all 1s;
     top:0;
@@ -28,24 +31,24 @@ body, a, p {
 .portfolioCircle {
     margin-bottom: 50px;
     background: rgb(114, 109, 185);
-    line-height: 500px;
+    line-height: 75vh;
 }
 
 
 .meCircle {
     background: rgba(255, 128, 192, 0.5);
-    top: 350;
-    line-height: 150px;
+    top: 38vh;
+    line-height: 25vh;
 }
 
 
 
 .wrapper:hover .portfolioCircle{
-     top: 262.5px;
+     top: 35vh;
 }
 
 .wrapper:hover .meCircle{
-    top:87.5px;
+    top: 10vh;
 }
 
 .fadeingText{
@@ -54,10 +57,13 @@ body, a, p {
     color: white;
     opacity: 0;
     transition: all 0.2s 0s;
-    font-size: 20px;
+    font-size: 3vh;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
+    white-space: nowrap;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
 }
 
 .wrapper:hover .fadeingText{
