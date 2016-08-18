@@ -13,10 +13,8 @@ body, html {
 .wrapper{
     height: 100%;
     width: 100%;
-    /* margin: 25px auto; */
-    margin: 0;
+    margin: 25px auto;
     position: relative;
-    /* background: blue; */
 }
 
 .circle {
@@ -36,12 +34,14 @@ body, html {
     background: rgba(255, 128, 192, 0.5);
     top: 38vh;
     line-height: 25vh;
+    z-index: 2;
 }
 
 .portfolioCircle {
     margin-bottom: 50px;
     background: rgb(114, 109, 185);
     line-height: 75vh;
+    z-index: 1;
 }
 
 
@@ -84,6 +84,7 @@ body, html {
 
 .about .meCircle {
     transform: scale(10);
+    background: rgba(255, 128, 192, 0.19);
 }
 
 .meContent {
@@ -95,6 +96,7 @@ body, html {
     margin-left: 15vh;
     opacity: 0;
     transition: all 0.5s 0s;
+    z-index: 10;
     
 }
 
