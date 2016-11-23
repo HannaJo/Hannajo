@@ -31,7 +31,7 @@ body, html {
 }
 
 .meCircle {
-    background: rgba(255, 128, 192, 0.5);
+    background: rgba(128, 120, 139, 0.83);
     top: 38vh;
     line-height: 25vh;
     z-index: 2;
@@ -39,7 +39,7 @@ body, html {
 
 .portfolioCircle {
     margin-bottom: 50px;
-    background: rgb(114, 109, 185);
+    background: rgb(118, 110, 102);
     line-height: 75vh;
     z-index: 1;
 }
@@ -58,7 +58,7 @@ body, html {
 .fadeingText{
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: black;
     opacity: 0;
     transition: all 0.2s 0s;
     font-size: 3vh;
@@ -66,6 +66,21 @@ body, html {
     font-variant: normal;
     font-weight: 400;
     white-space: nowrap;
+}
+
+.logo{
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    margin-left: -20vh;
+    margin-top: -11vh;
+    z-index: 10;
+}
+
+.logo img{
+    width: 30vh;
+
+
 }
 
 .wrapper:hover .fadeingText{
@@ -80,11 +95,12 @@ body, html {
 
 .portfolio .portfolioCircle {
    transform: scale(10);
+    background-color: rgb(41, 40, 39);
 }
 
 .about .meCircle {
     transform: scale(10);
-    background: rgba(255, 128, 192, 0.19);
+    background: rgba(128, 120, 139, 0.32);
 }
 
 .meContent {
@@ -106,11 +122,30 @@ body, html {
 
 .about .meContent {
     opacity: 1;
-    transition: all 1.5s 0s;
+    transition: all 1.5s 0.5s;
+}
+
+.about .mecontent .foto {
+    
+    margin-right: 10vh;
+    background-color: rgba(128, 120, 139, 0.32);
+    width: 30vh;
+    height: 40vh;
+    margin-bottom: 10vh;
+    background-image: url('./flicka.png');
+    background-size: contain;
+    background-blend-mode: multiply;
+    
 }
 
 .about .portfolioContent {
     opacity: 0;
+}
+.about .logo {
+    opacity: 0 !important;
+    top: 100vh;
+    transition-delay: 0s !important;
+    transition-duration: 0.5s !important;
 }
 .about .wrapper .portfolioCircle {
     top: 100vh;
