@@ -1,3 +1,7 @@
+html, body {
+    background-color:  rgb(41, 40, 39);
+}
+
 body, a, p {
     font-family: Quicksand, system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
     font-display: swap;
@@ -28,10 +32,11 @@ body, html {
     left: 0;
     right: 0;
     text-align: center;
+    mix-blend-mode: color-dodge;
 }
 
 .meCircle {
-    background: rgba(128, 120, 139, 0.83);
+    background: rgb(160, 160, 160);
     top: 38vh;
     line-height: 25vh;
     z-index: 2;
@@ -39,7 +44,7 @@ body, html {
 
 .portfolioCircle {
     margin-bottom: 50px;
-    background: rgb(118, 110, 102);
+    background: rgb(160, 160, 160);
     line-height: 75vh;
     z-index: 1;
 }
@@ -58,7 +63,7 @@ body, html {
 .fadeingText{
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: white;
     opacity: 0;
     transition: all 0.2s 0s;
     font-size: 3vh;
@@ -71,16 +76,14 @@ body, html {
 .logo{
     position: absolute;
     left: 50vw;
-    top: 50vh;
-    margin-left: -20vh;
+    top: 52vh;
+    margin-left: -10vh;
     margin-top: -11vh;
     z-index: 10;
 }
 
 .logo img{
-    width: 30vh;
-
-
+    width: 20vh;
 }
 
 .wrapper:hover .fadeingText{
@@ -100,11 +103,12 @@ body, html {
 
 .about .meCircle {
     transform: scale(10);
-    background: rgba(128, 120, 139, 0.32);
+    background: rgb(160, 160, 160);
 }
 
 .meContent {
     position: fixed;
+    color: white;
     top:0;
     left: 0;
     right: 0;
@@ -113,7 +117,6 @@ body, html {
     opacity: 0;
     transition: all 0.5s 0s;
     z-index: 10;
-    
 }
 
 .portfolioContent {
@@ -126,27 +129,35 @@ body, html {
 }
 
 .about .mecontent .foto {
-    
     margin-right: 10vh;
-    background-color: rgba(128, 120, 139, 0.32);
+    background-color: rgb(110, 107, 105);
     width: 30vh;
     height: 40vh;
     margin-bottom: 10vh;
     background-image: url('./flicka.png');
     background-size: contain;
     background-blend-mode: multiply;
-    
 }
 
 .about .portfolioContent {
     opacity: 0;
 }
+
 .about .logo {
     opacity: 0 !important;
     top: 100vh;
     transition-delay: 0s !important;
     transition-duration: 0.5s !important;
 }
+
+.portfolio .logo {
+    opacity: 0 !important;
+    top: -100vh;
+    transition-delay: 0s !important;
+    transition-duration: 0.5s !important;
+
+}
+
 .about .wrapper .portfolioCircle {
     top: 100vh;
 }
