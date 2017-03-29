@@ -51,23 +51,22 @@ body, html {
     text-align: center;
 }
 
+.link{
+    text-decoration: none;
+    color: black;
+}
+
 .page .contact .text{ 
     font-size: 25px;
     
 }
 
+/*
 .emailForm{
     text-align: left;
     margin-top: 5vh;
     margin-left: 20vw;
     margin-right: 20vw;
-}
+} 
+*/
 
-.inputField{
-    width: 250;
-    
-}
-
-p{
-    margin-top: 10px;
-}
