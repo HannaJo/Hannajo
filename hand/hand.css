@@ -7,7 +7,6 @@ body, a, p {
 }
 
 body, html {
-    overflow: hidden;
     margin: 0;
 }
 
@@ -58,7 +57,17 @@ body, html {
 }
 
 .emailForm{
+    text-align: left;
     margin-top: 5vh;
-    margin-left: 10vw;
-    margin-right: 10vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.inputField{
+    width: 250;
+    
+}
+
+p{
+    margin-top: 10px;
 }
