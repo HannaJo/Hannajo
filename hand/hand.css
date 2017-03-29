@@ -15,7 +15,7 @@ body, html {
     background-color: rgb(255, 255, 255);
     height: 25vh;
     width: 100vw;
-    left: 0vh;
+    left: 0vw;
     top: 0vh;
     
     
@@ -45,4 +45,14 @@ body, html {
 .page .keramik{
     background-color: black;
     height: 300px;
+}
+
+.page .contact{
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.page .contact .text{ 
+    font-size: 25px;
+    
 }
