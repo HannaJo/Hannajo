@@ -60,6 +60,16 @@ body, html {
     top: 10vh;
 }
 
+@media all and (max-width:500px){
+    
+    .wrapper .portfolioCircle{
+         top: 35vh;
+    }
+
+    .wrapper .aboutCircle{
+        top: 10vh;
+    }
+}
 .fadeingText{
     display: inline-block;
     text-decoration: none;
@@ -95,6 +105,16 @@ body, html {
     text-decoration: underline;
 }
 
+@media all and (max-width:500px){
+        .wrapper .fadeingText{
+        opacity: 1;
+        transition: all 1.5s 0.5s;
+    }
+
+    .fadeingText{
+        text-decoration: underline;
+    }
+}
 
 .portfolio .portfolioCircle {
    transform: scale(10);
