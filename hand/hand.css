@@ -44,7 +44,7 @@ body, html {
 
 .page .keramik{
     background-color: black;
-    height: 300px;
+    height: 100px;
 }
 
 .page .contact{
@@ -55,4 +55,10 @@ body, html {
 .page .contact .text{ 
     font-size: 25px;
     
+}
+
+.emailForm{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vh;
 }
