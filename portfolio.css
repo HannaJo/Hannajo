@@ -37,7 +37,7 @@ body, html {
 
 .aboutCircle {
     background: rgb(160, 160, 160);
-    top: 38vh;
+    top: 30vh;
     line-height: 25vh;
     z-index: 2;
 }
@@ -86,7 +86,7 @@ body, html {
 .logo{
     position: absolute;
     left: 50vw;
-    top: 52vh;
+    top: 45vh;
     margin-left: -10vh;
     margin-top: -11vh;
     z-index: 10;
