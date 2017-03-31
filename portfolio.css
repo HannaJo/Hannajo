@@ -17,7 +17,8 @@ body, html {
 .wrapper{
     height: 100%;
     width: 100%;
-    margin: 25px auto;
+    margin: 20px auto;
+    margin-top: -8vh;
     position: relative;
 }
 
@@ -26,6 +27,7 @@ body, html {
     height: 50vh;
     border-radius: 10000px;
     margin: auto;
+    margin-top: 0vh;
     transition: all 1s;
     top:0;
     position: absolute;
