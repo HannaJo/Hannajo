@@ -37,7 +37,7 @@ body, html {
 
 .aboutCircle {
     background: rgb(160, 160, 160);
-    top: 30vh;
+    top: 38vh;
     line-height: 25vh;
     z-index: 2;
 }
@@ -86,17 +86,17 @@ body, html {
 .logo{
     position: absolute;
     left: 50vw;
-    top: 45vh;
+    top: 52vh;
     margin-left: -10vh;
     margin-top: -11vh;
     z-index: 10;
-    transition: all 1.9s 0.5s;
     
 }
 
 .logo img{
     width: 20vh;
 }
+
 
 .wrapper:hover .fadeingText{
     opacity: 1;
