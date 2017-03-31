@@ -14,12 +14,31 @@ body, html {
     margin: 0;
 }
 
-.wrapper{
-    height: 100%;
-    width: 100%;
-    margin: 20px auto;
-    margin-top: -8vh;
-    position: relative;
+@keyframes aboutCircleAnimation {
+  0% {
+    transform: translateY(-150%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes portfolioCircleAnimation {
+  0% {
+    transform: translateY(150%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .circle {
@@ -27,8 +46,8 @@ body, html {
     height: 50vh;
     border-radius: 10000px;
     margin: auto;
-    margin-top: 0vh;
-    transition: all 1s;
+    /* margin-top: 0vh; */
+    /* transition: all 1s; */
     top:0;
     position: absolute;
     left: 0;
@@ -42,47 +61,29 @@ body, html {
     top: 38vh;
     line-height: 25vh;
     z-index: 2;
+    animation: 1s cubic-bezier(0, 0, 0.07, 1.01) 0s 1 aboutCircleAnimation;
 }
 
 .portfolioCircle {
-    margin-bottom: 50px;
+    bottom: 40vh;
     background: rgb(160, 160, 160);
-    line-height: 75vh;
+    /* line-height: 25vh; */
     z-index: 1;
+    animation: 1s cubic-bezier(0, 0, 0.07, 1.01) 0s 1 portfolioCircleAnimation;
 }
 
-
-
-
-.wrapper:hover .portfolioCircle{
-     top: 35vh;
-}
-
-.wrapper:hover .aboutCircle{
-    top: 10vh;
-}
-
-@media all and (max-width:500px){
-    
-    .wrapper .portfolioCircle{
-         top: 35vh;
-    }
-
-    .wrapper .aboutCircle{
-        top: 10vh;
-    }
-}
 .fadeingText{
     display: inline-block;
     text-decoration: none;
     color: white;
-    opacity: 0;
     transition: all 0.2s 0s;
     font-size: 3vh;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
     white-space: nowrap;
+    padding: 63px;
+    animation: 1s cubic-bezier(0, 0, 0.07, 1.01) 0s 1 opacityAnimation;
 }
 
 .logo{
@@ -100,25 +101,10 @@ body, html {
 }
 
 
-.wrapper:hover .fadeingText{
-    opacity: 1;
-    transition: all 1.9s 0.5s;
-}
-
 .fadeingText:hover{
     text-decoration: underline;
 }
 
-@media all and (max-width:500px){
-        .wrapper .fadeingText{
-        opacity: 1;
-        transition: all 1.5s 0.5s;
-    }
-
-    .fadeingText{
-        text-decoration: underline;
-    }
-}
 
 .portfolio .portfolioCircle {
    transform: scale(10);
@@ -131,6 +117,7 @@ body, html {
 }
 
 .aboutContent {
+    display: none;
     position: fixed;
     color: white;
     top:0;
@@ -148,6 +135,7 @@ body, html {
     margin-top: 10vh;
     margin-left: 15vw;
     opacity: 0;
+    display: none;
 }
 .portfolio .portfolioContent {
     position: fixed;
@@ -158,11 +146,13 @@ body, html {
     opacity: 1;
     transition: all 0.5s 0s;
     z-index: 10;
+    display: block;
 }
 
 .about .aboutContent {
     opacity: 1;
     transition: all 1.5s 0.5s;
+    display: block;
 }
 
 .bio {
