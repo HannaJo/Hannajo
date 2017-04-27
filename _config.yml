@@ -1,0 +1,9 @@
+# global settings
+title: "Johanna Stadler"
+description: "Art blog"
+url: https://johannastadler.com
+analytics_account: "UA-98209532-1"
+
+# build settings
+exclude: ["package.json"]
+markdown: kramdown
