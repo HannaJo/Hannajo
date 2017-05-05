@@ -6,35 +6,32 @@
     {% include meta.html %}
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <script type="text/javascript" src="/scripts/bg.js"></script>
   </head>
 
   <body>
+
+    <!--
     <header class="_topbar-fixed">
       <img src="/images/logo_64.png" alt="Hand Logo" class="logo">
+
+
+        <nav>
+          <a href="{{ site.baseurl }}/">Blog</a>
+          <a href="{{ site.baseurl }}/about">About</a>
+        </nav>
+
     </header>
+
+    -->
+
+    <div class="_fixed_bg" id="bg"></div>
 
     <div class="_topbar-big">
       <img src="/images/logo_512.png" alt="Hand Logo" class="logo">
       <p class="name">Johanna Stadler</p>
-    </div>
-
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
     </div>
 
     <div id="main" role="main" class="container">
@@ -50,5 +47,6 @@
     </div>
 
     {% include analytics.html %}
+
   </body>
 </html>

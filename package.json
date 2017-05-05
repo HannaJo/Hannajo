@@ -1,0 +1,11 @@
+{
+  "name": "johanna",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HannaJo/HannaJo.git",
+  "author": "Jeremi Stadler <stadler.jeremi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "jekyll serve"
+  }
+}

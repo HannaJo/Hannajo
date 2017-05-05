@@ -1,3 +1,15 @@
+
+._fixed_bg {
+  background: #918170;
+  position: fixed;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 ._topbar-fixed {
   height: 50px;
   width: 100%;
@@ -7,6 +19,7 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   align-items: center;
+  justify-content: space-between;
 
   .logo {
     display: block;
@@ -18,12 +31,11 @@
 
 
 ._topbar-big {
-  background: #918170;
   overflow: hidden;
 
   .logo {
     display: block;
-    margin: 41px auto;
+    margin: 23px auto 35px auto;
     width: 50vw;
     height: 50vw;
     max-width: 300px;
@@ -34,5 +46,7 @@
     color: #fff;
     font-size: 32px;
     text-align: center;
+    margin: 35px 0;
+    font-weight: 300;
   }
 }
