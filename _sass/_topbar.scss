@@ -13,19 +13,36 @@
 ._topbar-fixed {
   height: 50px;
   width: 100%;
+  top: 0;
   display: flex;
   position: fixed;
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  background: rgba(237, 234, 232, 0.60);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0px 4px 20px rgba(145, 129, 112, 0.25);
+
+  transform: translateY(-50px);
+  transition: 0.3s;
+
+  &.visible {
+    transform: translateY(0px);
+  }
 
   .logo {
     display: block;
     width: 40px;
     height: 40px;
     margin-left: 16px;
+  }
+
+  .name {
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 15px;
+    font-weight: 300;
   }
 }
 
@@ -35,18 +52,18 @@
 
   .logo {
     display: block;
-    margin: 23px auto 35px auto;
-    width: 50vw;
-    height: 50vw;
-    max-width: 300px;
-    max-height: 300px;
+    margin: 12vw auto 12vw auto;
+    width: 55vw;
+    height: 55vw;
+    max-width: 225px;
+    max-height: 225px;
   }
 
   .name {
     color: #fff;
-    font-size: 32px;
+    font-size: 8vw;
     text-align: center;
-    margin: 35px 0;
+    margin: 12vw 0;
     font-weight: 300;
   }
 }
