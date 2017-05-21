@@ -12,7 +12,7 @@
 }
 
 ._topbar-fixed {
-  height: 50px;
+  height: 60px;
   width: 100%;
   top: 0;
   display: flex;
@@ -41,6 +41,7 @@
     max-height: 225px;
     position: fixed;
     will-change: left, top, width, height;
+    left: -1000px;
   }
 
   .name {
@@ -49,5 +50,6 @@
     font-weight: 300;
     position: fixed;
     will-change: right, top, font-size, color;
+    left: -1000px;
   }
 }

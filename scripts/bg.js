@@ -37,8 +37,8 @@ function onUpdate() {
     const textColorAnim = clamp(topPosition - 150, 0, 200) / 200;
 
 
-    const bigLogoSize = clamp(windowWidth / 2, 0, 225);
-    const smallLogoSize = 40;
+    const bigLogoSize = clamp(windowWidth * 0.6, 0, 225);
+    const smallLogoSize = 45;
     const logoSize = lerp(bigLogoSize, smallLogoSize, logoAnim);
     logoElm.style.width = logoSize + 'px';
     logoElm.style.height = logoSize + 'px';
@@ -46,15 +46,15 @@ function onUpdate() {
     const bigLogoLeft = windowWidth / 2 - logoSize / 2;
     const smallLogoLeft = 16;
     logoElm.style.left = lerp(bigLogoLeft, smallLogoLeft, logoAnim) + 'px';
-    logoElm.style.top = lerp(60, 5, logoAnim) + 'px';
+    logoElm.style.top = lerp(30, 7, logoAnim) + 'px';
 
 
-    const bigTextSize = clamp(windowWidth * 0.08, 14, 40);
-    const smallTextSize = 14;
+    const bigTextSize = clamp(windowWidth * 0.08, 20, 40);
+    const smallTextSize = 20;
     const textSize = lerp(bigTextSize, smallTextSize, textAnim);
 
     nameElm.style.fontSize = textSize + 'px';
-    nameElm.style.top = lerp(100 + logoSize, 1, textAnim) + 'px';
+    nameElm.style.top = lerp(60 + logoSize, 1, textAnim) + 'px';
     const nameWidth2 = nameElm.clientWidth / 2;
     nameElm.style.right = lerp(windowWidth / 2 - nameWidth2, 16, textAnim) + 'px';
 
