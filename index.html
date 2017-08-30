@@ -4,8 +4,6 @@ layout: home
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
       <div class="yellowbox" style="margin-left: {{post.yellowLeft}}%">
         <p class="title">{{ post.yellowTitle }}</p>
         <p class="content">{{ post.yellowContent }}</p>
