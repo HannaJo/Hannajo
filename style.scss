@@ -273,6 +273,7 @@ nav {
     border-radius: 3px;
     margin-left: 20%;
     margin-bottom: -17px;
+    z-index: 3;
 
     .title {
       font-size: 18px;
@@ -293,7 +294,7 @@ nav {
   .gallery {
     display: flex;
     flex-flow: row wrap;
-    
+
     img {
       flex: 1;
       width: 100%;
