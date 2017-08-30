@@ -43,6 +43,7 @@
     position: fixed;
     will-change: left, top, width, height;
     top: -1000px;
+    z-index: 101;
   }
 
   .name {
@@ -52,5 +53,6 @@
     position: fixed;
     will-change: right, top, font-size, color;
     top: 1000px;
+    z-index: 101;
   }
 }
