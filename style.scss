@@ -267,11 +267,13 @@ nav {
 
   .yellowbox {
     background: rgba(255, 182, 18, 0.8);
+    position: relative;
     padding: 10px;
     max-width: 50%;
     border-radius: 3px;
     margin-left: 20%;
-    
+    margin-bottom: -17px;
+
     .title {
       font-size: 18px;
       font-weight: bold;
