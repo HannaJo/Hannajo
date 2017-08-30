@@ -1,7 +1,7 @@
 ---
 bild: "/skolwebb/HannaJo/Jag_BW.gif"
 date: 2017-08-30 12:41:43 +0000
-image1: "/bubblor/logo_splash.png"
+image1: "/uploads/2017/08/30/IMG_6874.JPG"
 imageGallery:
 - "/skolwebb/HannaJo/me2.gif"
 - "/skolwebb/HannaJo/menu-1.gif"
@@ -17,6 +17,10 @@ yellowTitle: En dag på jobbet
 yellowcontent: b
 yellowheader: a
 ---
+test 3, brödtext? heelo 
 
+### qwe
 
-test 3, brödtext?
+qwe qwen *asd* **asd** asd
+
+asd
