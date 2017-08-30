@@ -266,11 +266,19 @@ nav {
   }
 
   .yellowbox {
-    background: yellow;
+    background: rgba(255, 182, 18, 0.8);
     padding: 10px;
+    max-width: 50%;
+    margin-left: 20%;
 
     .title {
+      font-size: 36px;
+      font-weight: bold;
+    }
 
+    .content {
+      font-size: 28px;
+      font-weight: bold;
     }
   }
 
@@ -285,6 +293,7 @@ nav {
 }
 
 .wrapper-footer {
+  display: none;
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
