@@ -10,40 +10,39 @@ layout: home
   </div>
 
 
-  {% if page.image1 %}
-  <img
-    src="{{ page.image1 }}"
-    class="mainImage"
-    style="left: {{page.image1Left}}%;
-           top: {{page.image1Overlap}}%;
-           transform: translate(-{{page.image1Left}}%, {{page.image1Overlap}}%);
-           max-width: {{page.image1Width}}%;
-           "
-  />
-  {% endif %}
-
-  {% if page.image2 %}
-  <img
-    src="{{ page.image2 }}"
-    class="mainImage"
-    style="left: {{page.image2Left}}%;
-           top: {{page.image2Overlap}}%;
-           transform: translate(-{{page.image2Left}}%, {{page.image2Overlap}}%);
-           max-width: {{page.image2Width}}%;
-           "
-  />
-  {% endif %}
-
-  {% if page.image3 %}
-  <img src="{{ page.image3 }}"
+  <div class="imageGroup" style="max-height: {{page.headerMaxHeight}}px">
+    {% if page.image1 %}
+    <img
+      src="{{ page.image1 }}"
       class="mainImage"
-      style="left: {{page.image3Left}}%;
-             top: {{page.image3Overlap}}%;
-             transform: translate(-{{page.image3Left}}%, {{page.image3Overlap}}%);
-             max-width: {{page.image3Width}}%;
+      style="left: {{page.image1Left}}%;
+             transform: translate(-{{page.image1Left}}%, {{page.image1Overlap}}%);
+             max-width: {{page.image1Width}}%;
              "
-  />
-  {% endif %}
+    />
+    {% endif %}
+
+    {% if page.image2 %}
+    <img
+      src="{{ page.image2 }}"
+      class="mainImage"
+      style="left: {{page.image2Left}}%;
+             transform: translate(-{{page.image2Left}}%, {{page.image2Overlap}}%);
+             max-width: {{page.image2Width}}%;
+             "
+    />
+    {% endif %}
+
+    {% if page.image3 %}
+    <img src="{{ page.image3 }}"
+        class="mainImage"
+        style="left: {{page.image3Left}}%;
+               transform: translate(-{{page.image3Left}}%, {{page.image3Overlap}}%);
+               max-width: {{page.image3Width}}%;
+               "
+    />
+    {% endif %}
+  </div>
 
   <div class="entry">
     {{ content }}
