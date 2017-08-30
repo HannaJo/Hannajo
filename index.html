@@ -9,40 +9,39 @@ layout: home
         <p class="content">{{ post.yellowContent }}</p>
       </div>
 
-      {% if post.image1 %}
-      <img
-        src="{{ post.image1 }}"
-        class="mainImage"
-        style="left: {{post.image1Left}}%;
-               top: {{post.image1Overlap}}%;
-               transform: translate(-{{post.image1Left}}%, {{post.image1Overlap}}%);
-               max-width: {{post.image1Width}}%;
-               "
-      />
-      {% endif %}
-
-      {% if post.image2 %}
-      <img
-        src="{{ post.image2 }}"
-        class="mainImage"
-        style="left: {{post.image2Left}}%;
-               top: {{post.image2Overlap}}%;
-               transform: translate(-{{post.image2Left}}%, {{post.image2Overlap}}%);
-               max-width: {{post.image2Width}}%;
-               "
-      />
-      {% endif %}
-
-      {% if post.image3 %}
-      <img src="{{ post.image3 }}"
+      <div class="imageGroup" style="max-height: {{post.headerMaxHeight}}">
+        {% if post.image1 %}
+        <img
+          src="{{ post.image1 }}"
           class="mainImage"
-          style="left: {{post.image3Left}}%;
-                 top: {{post.image3Overlap}}%;
-                 transform: translate(-{{post.image3Left}}%, {{post.image3Overlap}}%);
-                 max-width: {{post.image3Width}}%;
+          style="left: {{post.image1Left}}%;
+                 transform: translate(-{{post.image1Left}}%, {{post.image1Overlap}}%);
+                 max-width: {{post.image1Width}}%;
                  "
-      />
-      {% endif %}
+        />
+        {% endif %}
+
+        {% if post.image2 %}
+        <img
+          src="{{ post.image2 }}"
+          class="mainImage"
+          style="left: {{post.image2Left}}%;
+                 transform: translate(-{{post.image2Left}}%, {{post.image2Overlap}}%);
+                 max-width: {{post.image2Width}}%;
+                 "
+        />
+        {% endif %}
+
+        {% if post.image3 %}
+        <img src="{{ post.image3 }}"
+            class="mainImage"
+            style="left: {{post.image3Left}}%;
+                   transform: translate(-{{post.image3Left}}%, {{post.image3Overlap}}%);
+                   max-width: {{post.image3Width}}%;
+                   "
+        />
+        {% endif %}
+      </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">
         <span>Läs vidare</span>

@@ -269,6 +269,9 @@ nav {
 
   .yellowbox {
     background: rgba(255, 182, 18, 0.8);
+    backdrop-filter: brightness(108%) blur(5px);
+    -webkit-backdrop-filter: brightness(108%) blur(5px);
+
     position: relative;
     padding: 10px;
     max-width: 50%;
@@ -289,9 +292,17 @@ nav {
     }
   }
 
-  .mainImage {
-    position: relative;
+  .imageGroup {
+    overflow: hidden;
+    
+    .mainImage {
+      position: relative;
+      display: block;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+    }
   }
+
+
 
   .gallery {
     display: flex;
