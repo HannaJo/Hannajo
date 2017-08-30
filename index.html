@@ -41,7 +41,19 @@ layout: home
       />
       {% endif %}
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Läs mer</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">
+        <span>Läs vidare</span>
+        <svg width="35" height="15" viewBox="0 0 35 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Canvas" transform="translate(-1323 -2458)">
+          <g id="Vector 2">
+          <use xlink:href="#path0_stroke" transform="translate(1324 2459)"/>
+          </g>
+          </g>
+          <defs>
+          <path id="path0_stroke" d="M 16.5 12L 15.9118 12.8087L 16.5 13.2365L 17.0882 12.8087L 16.5 12ZM 17.0882 12.8087L 33.5882 0.808736L 32.4118 -0.808736L 15.9118 11.1913L 17.0882 12.8087ZM -0.588172 0.808736L 15.9118 12.8087L 17.0882 11.1913L 0.588172 -0.808736L -0.588172 0.808736Z"/>
+          </defs>
+          </svg>
+      </a>
     </article>
   {% endfor %}
 </div>
