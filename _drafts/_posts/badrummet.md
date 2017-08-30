@@ -14,4 +14,11 @@ imageGallery:
 - "/skolwebb/HannaJo/me2.gif"
 - "/skolwebb/HannaJo/project2.gif"
 date: 2017-08-30 17:25:39 +0000
+yellowTitle: total makeover
+yellowContent: så här gör man om ett fult badrum till en fräscht...
+yellowLeft: 40
+yellowOverlap: -10
+image1: "/images/badrummet/IMG_6462.JPG"
+image2: "/images/badrummet/IMG_6488.JPG"
+image3: ''
 ---
