@@ -13,8 +13,9 @@ layout: home
       <img
         src="{{ post.image1 }}"
         class="mainImage"
-        style="left: {{post.image1Left}}%;transform: translateX(-{{post.image1Left}}%);
-               top: {{post.image1Overlap}}%;transform: translateY(-{{post.image1Overlap}}%);
+        style="left: {{post.image1Left}}%;
+               top: {{post.image1Overlap}}%;
+               transform: translate(-{{post.image1Left}}%, -{{post.image1Overlap}}%);
                max-width: {{post.image1Width}}%;
                "
       />
@@ -24,8 +25,9 @@ layout: home
       <img
         src="{{ post.image2 }}"
         class="mainImage"
-        style="left: {{post.image2Left}}%;transform: translateX(-{{post.image2Left}}%);
-               top: {{post.image2Overlap}}%;transform: translateY(-{{post.image2Overlap}}%);
+        style="left: {{post.image2Left}}%;
+               top: {{post.image2Overlap}}%;
+               transform: translate(-{{post.image2Left}}%, -{{post.image2Overlap}}%);
                max-width: {{post.image2Width}}%;
                "
       />
@@ -34,8 +36,9 @@ layout: home
       {% if post.image3 %}
       <img src="{{ post.image3 }}"
           class="mainImage"
-          style="left: {{post.image3Left}}%;transform: translateX(-{{post.image3Left}}%);
-                 top: {{post.image3Overlap}}%;transform: translateY(-{{post.image3Overlap}}%);
+          style="left: {{post.image3Left}}%;
+                 top: {{post.image3Overlap}}%;
+                 transform: translate(-{{post.image3Left}}%, -{{post.image3Overlap}}%);
                  max-width: {{post.image3Width}}%;
                  "
       />
