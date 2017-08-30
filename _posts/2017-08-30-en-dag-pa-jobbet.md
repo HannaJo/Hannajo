@@ -6,7 +6,7 @@ testa2: "är aldrig den andre lik. Men någon slags vardag har jag ju ändå kla
 title: En dag på jobbet
 yellowheader: a
 yellowcontent: b
-bild: ''
+bild: "/skolwebb/HannaJo/Jag_BW.gif"
 ---
 
 
