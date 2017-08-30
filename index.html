@@ -7,9 +7,9 @@ layout: home
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="entry">
+      <div class="entry">{{ post.excerpt }}<br></div><p>
         {{ post.yellowheader }}
-      </div>
+      </p>
 
       <span style="font-size: 1rem;">{{ post.yellowcontent }}</span></article><article class="post"><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
