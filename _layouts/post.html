@@ -15,7 +15,9 @@ layout: home
     src="{{ page.image1 }}"
     class="mainImage"
     style="left: {{page.image1Left}}%;transform: translateX(-{{page.image1Left}}%);
-           top: {{page.image1Overlap}}%;transform: translateY(-{{page.image1Overlap}}%)"
+           top: {{page.image1Overlap}}%;transform: translateY(-{{page.image1Overlap}}%);
+           max-width: {{page.image1Width}}%;
+           "
   />
   {% endif %}
 
@@ -24,7 +26,9 @@ layout: home
     src="{{ page.image2 }}"
     class="mainImage"
     style="left: {{page.image2Left}}%;transform: translateX(-{{page.image2Left}}%);
-           top: {{page.image2Overlap}}%;transform: translateY(-{{page.image2Overlap}}%)"
+           top: {{page.image2Overlap}}%;transform: translateY(-{{page.image2Overlap}}%);
+           max-width: {{page.image1Width}}%;
+           "
   />
   {% endif %}
 
@@ -32,7 +36,9 @@ layout: home
   <img src="{{ page.image3 }}"
       class="mainImage"
       style="left: {{page.image3Left}}%;transform: translateX(-{{page.image3Left}}%);
-             top: {{page.image3Overlap}}%;transform: translateY(-{{page.image3Overlap}}%)"
+             top: {{page.image3Overlap}}%;transform: translateY(-{{page.image3Overlap}}%);
+             max-width: {{page.image1Width}}%;
+             "
   />
   {% endif %}
 
