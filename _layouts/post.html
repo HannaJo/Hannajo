@@ -9,13 +9,38 @@ layout: home
     <p class="content">{{ page.yellowContent }}</p>
   </div>
 
-  <img src="{{ page.image1 }}" />
+
+  {% if page.image1 %}
+  <img
+    src="{{ page.image1 }}"
+    class="mainImage"
+    style="left: {{page.image1Left}}%;transform: translateX(-{{page.image1Left}}%);
+           top: {{page.image1Overlap}}%;transform: translateY(-{{page.image1Overlap}}%)"
+  />
+  {% endif %}
+
+  {% if page.image2 %}
+  <img
+    src="{{ page.image2 }}"
+    class="mainImage"
+    style="left: {{page.image2Left}}%;transform: translateX(-{{page.image2Left}}%);
+           top: {{page.image2Overlap}}%;transform: translateY(-{{page.image2Overlap}}%)"
+  />
+  {% endif %}
+
+  {% if page.image3 %}
+  <img src="{{ page.image3 }}"
+      class="mainImage"
+      style="left: {{page.image3Left}}%;transform: translateX(-{{page.image3Left}}%);
+             top: {{page.image3Overlap}}%;transform: translateY(-{{page.image3Overlap}}%)"
+  />
+  {% endif %}
 
   <div class="entry">
     {{ content }}
   </div>
 
-  <div>
+  <div class="gallery">
     {% for imageUrl in page.imageGallery %}
       <img src="{{ imageUrl }}" />
     {% endfor %}

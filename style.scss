@@ -286,6 +286,21 @@ nav {
     }
   }
 
+  .mainImage {
+    position: relative;
+  }
+
+  .gallery {
+    display: flex;
+    flex-flow: row wrap;
+    
+    img {
+      flex: 1;
+      width: 100%;
+      height: auto;
+    }
+  }
+
   .comments {
     margin-top: 10px;
   }
