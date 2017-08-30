@@ -4,12 +4,12 @@ layout: home
 
 <article class="post">
 
-  <div class="yellowbox" style="margin-left: {{yellowLeft}}%;margin-bottom: {{yellowOverlap}}px">
-    <p class="title">{{ yellowTitle }}</p>
-    <p class="content">{{ yellowContent }}</p>
+  <div class="yellowbox" style="margin-left: {{post.yellowLeft}}%;margin-bottom: {{post.yellowOverlap}}px">
+    <p class="title">{{ post.yellowTitle }}</p>
+    <p class="content">{{ post.yellowContent }}</p>
   </div>
 
-  <img src="{{ image1 }}" />
+  <img src="{{ post.image1 }}" />
 
   <div class="entry">
     {{ content }}
