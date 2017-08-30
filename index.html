@@ -4,14 +4,16 @@ layout: home
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="entry"><br></div><p>
-        {{ post.yellowheader }}
-      </p>
+      <div class="yellowbox">
+        <p class="title">{{ post.yellowTitle }}</p>
+        <p class="content">{{ post.yellowContent }}</p>
+      </div>
 
-      <span style="font-size: 1rem;">{{ post.yellowcontent }}</span></article><article class="post"><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <img src="{{ post.image1 }}" />
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
