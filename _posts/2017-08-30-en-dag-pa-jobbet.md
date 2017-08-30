@@ -12,7 +12,7 @@ testa2: "är aldrig den andre lik. Men någon slags vardag har jag ju ändå kla
 title: En dag på jobbet
 yellowContent: "är aldrig den andre lik. Men någon slags vardag har jag ju ändå klarat
   av att få till. Så här kan det se ut!"
-yellowLeft: 0
+yellowLeft: 5
 yellowOverlap: -20
 yellowTitle: En dag på jobbet
 yellowcontent: b
