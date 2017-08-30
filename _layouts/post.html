@@ -4,15 +4,21 @@ layout: home
 
 <article class="post">
 
-  <div class="yellowbox" style="margin-left: {{post.yellowLeft}}%;margin-bottom: {{post.yellowOverlap}}px">
-    <p class="title">{{ post.yellowTitle }}</p>
-    <p class="content">{{ post.yellowContent }}</p>
+  <div class="yellowbox" style="margin-left: {{page.yellowLeft}}%;margin-bottom: {{page.yellowOverlap}}px">
+    <p class="title">{{ page.yellowTitle }}</p>
+    <p class="content">{{ page.yellowContent }}</p>
   </div>
 
-  <img src="{{ post.image1 }}" />
+  <img src="{{ page.image1 }}" />
 
   <div class="entry">
     {{ content }}
+  </div>
+
+  <div>
+    {% for imageUrl in page.imageGallery %}
+      <img src="{{ imageUrl }}" />
+    {% endfor %}
   </div>
 
   <div class="date">
