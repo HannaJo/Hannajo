@@ -1,0 +1,127 @@
+---
+pages:
+- _posts/2017-08-30-badrummet.md
+- _posts/2017-08-30-en-dag-pa-jobbet.md
+- _posts/2017-4-26-Bilder.md
+hide_body: false
+fields:
+- type: text
+  name: yellowTitle
+  label: Gul rubrik
+- type: textarea
+  name: yellowContent
+  label: Gul bröd
+- type: number
+  name: yellowLeft
+  label: 'X Gul box vänster plasering '
+  description: procent (%) från vänster
+  hidden: ''
+  config:
+    min: '0'
+    max: '100'
+    step: '1'
+  default: '10'
+- type: number
+  label: 'Y Gul box plasering '
+  name: yellowOverlap
+  config:
+    min: "-100"
+    step: '1'
+    max: '100'
+  description: px [ 0= kant i kant, (+) över, (-)överlappande ]
+  default: "-20"
+- type: file
+  name: image1
+  label: bild 1
+- type: number
+  default: '0'
+  name: image1Left
+  label: 'X Bild 1 plasering '
+  description: procent (%) från vänster
+  config:
+    min: '0'
+    max: '100'
+- type: number
+  description: px [ 0= kant i kant, (+) över, (-)överlappande ]
+  label: Y Bild 1 plasering
+  name: image1Overlap
+  config:
+    min: "-100"
+    max: '100'
+  default: '0'
+- type: number
+  label: bild 1 bredd
+  name: image1Width
+  description: procent (%) 1 - 100
+  config:
+    min: '1'
+    max: '100'
+  default: '100'
+- type: file
+  label: bild 2
+  name: image2
+- type: number
+  label: 'x Bild 2 plasering '
+  name: image2Left
+  description: procent (%) från vänster
+  config:
+    min: '0'
+    max: '100'
+  default: '0'
+- type: number
+  name: image2Overlap
+  label: Y Bild 2 plasering
+  description: px [ 0= kant i kant, (+) över, (-)överlappande ]
+  config:
+    min: "-100"
+    max: '100'
+  default: '0'
+- type: number
+  label: bild 2 bredd
+  name: image2Width
+  description: procent (%) 1 - 100
+  config:
+    min: '1'
+    max: '100'
+  default: '100'
+- type: file
+  label: bild 3
+  name: image3
+- type: number
+  label: 'x Bild 3 plasering '
+  name: image3Left
+  config:
+    min: '0'
+    max: '100'
+  description: procent (%) från vänster
+  default: '0'
+- type: number
+  name: image3Overlap
+  label: Y Bild 3 plasering
+  description: px [ 0= kant i kant, (+) över, (-)överlappande ]
+  config:
+    min: "-100"
+    max: '100'
+  default: '0'
+- type: number
+  label: bild 3 bredd
+  name: image3Width
+  description: procent (%) 1 - 100
+  config:
+    min: '1'
+    max: '100'
+  default: '100'
+- type: number
+  label: Max images height
+  name: headerMaxHeight
+  config:
+    min: '20'
+    max: '999'
+    step: '1'
+- type: image_gallery
+  default:
+  - "/skolwebb/HannaJo/menu-1.gif"
+  - "/skolwebb/HannaJo/me2.gif"
+  - "/skolwebb/HannaJo/project2.gif"
+  label: Bild galleri
+  name: imageGallery
