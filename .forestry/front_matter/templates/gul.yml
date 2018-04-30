@@ -8,6 +8,7 @@ pages:
 - _posts/2017-08-30-badrummet.md
 - _posts/2017-4-26-Bilder.md
 hide_body: false
+is_partial: false
 fields:
 - type: text
   name: yellowTitle
