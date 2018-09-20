@@ -22,4 +22,4 @@ image3: ''
 headerMaxHeight: 800
 
 ---
-Dessa små kompisar blir till i min hemmaverkstad på 5 kvm i en lägenhet i Örebro. De är tillverkade en och en med såpvatten och tovnål från svensk ull. 
+Dessa små kompisar blir till i en lägenhet i Örebro. De är tillverkade en och en med såpvatten och tovnål från svensk ull.
