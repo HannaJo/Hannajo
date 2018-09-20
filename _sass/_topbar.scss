@@ -38,8 +38,7 @@
     display: block;
 
     @media screen and (max-width: 460px) {
-      width: 100px;
-      float: none;
+      display: none;
     }
   }
 }
