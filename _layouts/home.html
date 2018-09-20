@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
+
+    {{page.fixedTopbar}}
+{{page | jsonify}}
     {% if page.fixedTopbar %}
       <script>
         window.fixedTopbar = true
