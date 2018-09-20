@@ -19,7 +19,7 @@ yellowContent: De små skogskamraterna vill hålla barnet i vagnen med sällskap
 image1: "/uploads/2018/09/20/IMG_8489-1.JPG"
 image2: "/uploads/2018/09/20/00100dPORTRAIT_00100_BURST20171123105601219_COVER copy.jpg"
 image3: ''
-headerMaxHeight: 700
+headerMaxHeight: 600
 
 ---
 Dessa små kompisar blir till i en lägenhet i Örebro. De är tillverkade en och en med såpvatten och tovnål från svensk ull.
