@@ -2,11 +2,11 @@
 title: Sällskapsdjur
 yellowLeft: 20
 yellowOverlap: -20
-image1Left: 5
+image1Left: 20
 image1Overlap: 0
 image1Width: 70
 image2Left: 60
-image2Overlap: -85
+image2Overlap: -80
 image2Width: 100
 image3Left: 0
 image3Overlap: 0
