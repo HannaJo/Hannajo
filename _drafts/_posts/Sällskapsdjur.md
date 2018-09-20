@@ -11,10 +11,14 @@ image2Width: 100
 image3Left: 0
 image3Overlap: 0
 image3Width: 100
-imageGallery:
-- "/skolwebb/HannaJo/menu-1.gif"
-- "/skolwebb/HannaJo/me2.gif"
-- "/skolwebb/HannaJo/project2.gif"
+imageGallery: []
 date: 2018-09-20 16:47:24 +0200
+yellowTitle: Sällskapsdjuren
+yellowContent: De små skogskamraterna vill hålla barnet i vagnen med sällskap under
+  alla vardagens äventyr!
+image1: "/uploads/2018/09/20/IMG_8489-1.JPG"
+image2: "/uploads/2018/09/20/00100dPORTRAIT_00100_BURST20171123104952487_COVER-1.jpg"
+image3: ''
+headerMaxHeight: ''
 
 ---
