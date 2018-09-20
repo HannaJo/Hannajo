@@ -14,7 +14,10 @@ function lerp(v1, v2, amount) {
 function onUpdate() {
   requestAnimationFrame(onUpdate);
 
-  const topPosition = window.pageYOffset || document.documentElement.scrollTop;
+  let topPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (window.fixedTopbar)
+    topPosition = 1000
 
   if (topPosition !== lastTopPosition)
   {
