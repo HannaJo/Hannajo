@@ -7,6 +7,7 @@
   font-size: 20px;
   text-align: center;
   color: #000000;
+  position: relative;
 
   &_email{
     margin-top: 50px;
@@ -17,14 +18,18 @@
   }
 
   svg {
-    margin-top: -140px;
+    position: absolute;
+    left: 50%;
+    top: -16%
+    transform: translateX(-29%);
+    z-index: -1;
   }
 
   &_insvg{
     font-size: 16px;
     text-align: left;
     width: 393px;
-    margin: -323px auto 0 auto;
+    margin: 81px auto 0 auto;
     padding-left: 23px;
     color: black;
     text-decoration: none;
