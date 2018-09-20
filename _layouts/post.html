@@ -55,8 +55,10 @@ layout: home
   </div>
 
   <div class="date">
-    Skriven {{ date | date: "%B %e, %Y" }}
+    Skriven {{ page.date | page.date: "%B %e, %Y" }}
   </div>
 
   {% include disqus.html %}
+
+  <div style="height: 70px;"></div>
 </article>
