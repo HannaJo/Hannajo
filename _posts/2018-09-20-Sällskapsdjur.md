@@ -19,6 +19,6 @@ yellowContent: De små skogskamraterna vill hålla barnet i vagnen med sällskap
 image1: "/uploads/2018/09/20/IMG_8489-1.JPG"
 image2: "/uploads/2018/09/20/00100dPORTRAIT_00100_BURST20171123104952487_COVER-1.jpg"
 image3: ''
-headerMaxHeight: ''
+headerMaxHeight: 200
 
 ---
