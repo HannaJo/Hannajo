@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: true
 admin_path: forestry
-webhook_url: 
+webhook_url:
 sections:
 - type: jekyll-posts
   label: Posts
@@ -10,6 +10,12 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
+- path: bubblor
+  hidden: true
+- path: skolwebb
+  hidden: true
+- path: hand
+  hidden: true
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
