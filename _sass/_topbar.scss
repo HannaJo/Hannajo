@@ -21,14 +21,13 @@
   backdrop-filter: brightness(108%) blur(5px);
   -webkit-backdrop-filter: brightness(108%) blur(5px);
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   box-shadow: 0px 4px 20px rgba(145, 129, 112, 0.25);
 
   opacity: 0;
   will-change: opacity;
   z-index: 100;
   margin: 0;
-  padding-left: 69px;
 
   a {
     margin-left: 20px;
@@ -37,6 +36,11 @@
     font-weight: 300;
     letter-spacing: 1px;
     display: block;
+
+    @media screen and (max-width: 460px) {
+      width: 100px;
+      float: none;
+    }
   }
 }
 
