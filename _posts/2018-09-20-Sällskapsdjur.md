@@ -4,10 +4,10 @@ yellowLeft: 10
 yellowOverlap: -20
 image1Left: 0
 image1Overlap: 0
-image1Width: 100
-image2Left: 30
-image2Overlap: -50
-image2Width: 50
+image1Width: 80
+image2Left: 10
+image2Overlap: -70
+image2Width: 60
 image3Left: 0
 image3Overlap: 0
 image3Width: 100
