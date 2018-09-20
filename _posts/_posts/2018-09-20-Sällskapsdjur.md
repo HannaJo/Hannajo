@@ -12,7 +12,7 @@ image3Left: 0
 image3Overlap: 0
 image3Width: 100
 imageGallery: []
-date: 2018-09-20 16:47:24 +0200
+date: 2018-09-20 14:47:24 +0000
 yellowTitle: Sällskapsdjuren
 yellowContent: De små skogskamraterna vill hålla barnet i vagnen med sällskap under
   alla vardagens äventyr!
