@@ -16,10 +16,11 @@ imageGallery:
 title: Tova
 yellowLeft: 10
 yellowOverlap: -20
-yellowTitle: Pimpa vagnen
-yellowContent: 'vagnens gröna färg blir en '
+yellowTitle: När jag jobbar
+yellowContent: sitter jag i min hemmaverkstad på ca 5 kvm i en lägenhet i Örebro.
 image1: ''
-image2: ''
+image2: "/uploads/2018/09/21/verkstad copy.jpg"
 image3: ''
 headerMaxHeight: ''
+
 ---
