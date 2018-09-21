@@ -116,10 +116,7 @@ fields:
     max: '999'
     step: '1'
 - type: image_gallery
-  default:
-  - "/skolwebb/HannaJo/menu-1.gif"
-  - "/skolwebb/HannaJo/me2.gif"
-  - "/skolwebb/HannaJo/project2.gif"
+  default: []
   label: Bild galleri
   name: imageGallery
 pages:
