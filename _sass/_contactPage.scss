@@ -1,4 +1,11 @@
 
+.swirl {
+  background: url(/images/swirl.svg);
+  min-height: 100vh;
+  background-position: -288px 5px;
+}
+
+
 .contactPage {
   font-family: Quicksand;
   font-style: normal;
@@ -14,15 +21,6 @@
 
   &_phone{
     margin-top: 30px;
-  }
-
-  .swirl {
-    position: absolute;
-    left: 50%;
-    top: -19%;
-    transform: translateX(-31%);
-    z-index: -1;
-    background: url('/images/swirl.svg');
   }
 
   &_insvg{
@@ -49,7 +47,8 @@
 
   &_follow {
     width: 390px;
-    margin: 206px auto 300px auto;
+    margin: 206px auto 0px auto;
+    padding-bottom: 50px;
 
     &_title {
       font-size: 11px;
