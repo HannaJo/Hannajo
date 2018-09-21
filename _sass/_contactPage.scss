@@ -7,7 +7,6 @@
   font-size: 20px;
   text-align: center;
   color: #000000;
-  position: relative;
 
   &_email{
     margin-top: 50px;
@@ -17,12 +16,13 @@
     margin-top: 30px;
   }
 
-  svg {
+  .swirl {
     position: absolute;
     left: 50%;
     top: -19%;
     transform: translateX(-31%);
     z-index: -1;
+    background: url('/images/swirl.svg');
   }
 
   &_insvg{
