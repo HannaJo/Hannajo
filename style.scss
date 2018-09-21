@@ -22,6 +22,8 @@ body {
 	background: #EDEAE8;
   font: 18px/1.4 $quicksand;
   color: $darkGray;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .container {
