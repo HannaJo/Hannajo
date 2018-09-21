@@ -123,4 +123,5 @@ fields:
   label: Bild galleri
   name: imageGallery
 pages:
+- _posts/Verkstaden.md
 - _posts/2017-4-26-Bilder.md
