@@ -15,7 +15,7 @@ imageGallery: []
 date: 2018-09-21 19:46:41 +0200
 yellowTitle: När jag jobbar
 yellowContent: sitter jag i min hemmaverkstad på ca 5 kvm i en lägenhet i Örebro.
-image1: "/uploads/2018/09/21/verkstad copy-1.jpg"
+image1: "/uploads/2018/09/21/verkstad copy.jpg"
 image2: "/uploads/2018/09/21/Frame-21-09-2018-06-03-34-2.jpg"
 image3: ''
 headerMaxHeight: ''
