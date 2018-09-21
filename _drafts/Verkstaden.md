@@ -6,8 +6,8 @@ image1Left: 0
 image1Overlap: 0
 image1Width: 80
 image2Left: 70
-image2Overlap: -15
-image2Width: 40
+image2Overlap: -30
+image2Width: 50
 image3Left: 0
 image3Overlap: 0
 image3Width: 100
