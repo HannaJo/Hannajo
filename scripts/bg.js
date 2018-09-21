@@ -59,7 +59,10 @@ function onUpdate() {
     const lightness = Math.floor(lerp(255, 50, textColorAnim));
     nameElm.style.color = `rgb(${lightness},${lightness},${lightness})`;
 
-    bgElm.style.opacity = 1 - clamp(topPosition, 0, 200) / 200;
+    if (window.fixedTopbar)
+      bgElm.style.opacity = 1
+    else
+      bgElm.style.opacity = 1 - clamp(topPosition, 0, 200) / 200;
     topbarElm.style.opacity = clamp(topPosition - 200, 0, 200) / 200;
   }
 }
