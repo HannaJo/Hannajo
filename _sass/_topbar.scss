@@ -13,6 +13,16 @@
   background-size: cover;
 }
 
+.fixed-topbar-only {
+  background-image: url(/images/bg.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+
+  ._fixed_bg {
+    display: none;
+  }
+}
+
 ._topbar-fixed {
   height: 60px;
   width: 100%;
