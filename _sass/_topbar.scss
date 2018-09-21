@@ -1,6 +1,5 @@
 
 ._fixed_bg {
-  background: #918170;
   position: fixed;
   opacity: 1;
   top: 0;
@@ -9,6 +8,9 @@
   bottom: 0;
   z-index: -1;
   will-change: opacity;
+  background: #918170;
+  background-image: url('/images/bg.jpg');
+  background-size: cover;
 }
 
 ._topbar-fixed {
@@ -48,8 +50,6 @@
   }
 }
 
-
-
 ._topbar-big {
   overflow: hidden;
   height: 400px;
@@ -74,5 +74,13 @@
     will-change: right, top, font-size, color;
     top: 1000px;
     z-index: 101;
+  }
+}
+
+
+
+.fixed-topbar-only {
+  ._topbar-big {
+    height: 60px;
   }
 }
