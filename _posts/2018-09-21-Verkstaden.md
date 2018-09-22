@@ -2,17 +2,17 @@
 title: Verkstaden
 yellowLeft: 10
 yellowOverlap: -10
-image1Left: ''
+image1Left: 20
 image1Overlap: ''
 image1Width: 80
 image2Left: 70
 image2Overlap: -30
-image2Width: 50
+image2Width: 60
 image3Left: ''
 image3Overlap: ''
 image3Width: 100
 imageGallery: []
-date: 2018-09-21 19:46:41 +0200
+date: 2018-09-21 17:46:41 +0000
 yellowTitle: När jag jobbar
 yellowContent: sitter jag i min hemmaverkstad på ca 5 kvm i en lägenhet i Örebro.
 image1: "/uploads/2018/09/21/Frame-21-09-2018-06-03-34-2.jpg"
