@@ -1,6 +1,6 @@
 ---
 title: Verkstaden
-yellowLeft: 50
+yellowLeft: 25
 yellowOverlap: -10
 image1Left: 10
 image1Overlap: ''
