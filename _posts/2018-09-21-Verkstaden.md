@@ -2,7 +2,7 @@
 title: Verkstaden
 yellowLeft: 10
 yellowOverlap: -10
-image1Left: 20
+image1Left: 10
 image1Overlap: ''
 image1Width: 80
 image2Left: 80
