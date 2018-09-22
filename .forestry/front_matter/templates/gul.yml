@@ -120,6 +120,5 @@ fields:
   label: Bild galleri
   name: imageGallery
 pages:
-- _posts/post.md
 - _posts/2018-09-21-Verkstaden.md
 - _posts/2017-4-26-Bilder.md
