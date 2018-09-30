@@ -1,4 +1,7 @@
 
+if (/Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor))
+  document.body.classList.add('isChrome')
+
 let lastTopPosition = -1;
 const ANIMATION = 200;
 
@@ -56,8 +59,8 @@ function onUpdate() {
     const nameWidth2 = nameElm.clientWidth / 2;
     nameElm.style.right = lerp(windowWidth / 2 - nameWidth2, 16, textAnim) + 'px';
 
-    const lightness = Math.floor(lerp(255, 50, textColorAnim));
-    nameElm.style.color = `rgb(${lightness},${lightness},${lightness})`;
+    // const lightness = Math.floor(lerp(255, 50, textColorAnim));
+    // nameElm.style.color = `rgb(${lightness},${lightness},${lightness})`;
 
     bgElm.style.opacity = 1 - clamp(topPosition, 0, 200) / 200;
     topbarElm.style.opacity = clamp(topPosition - 200, 0, 200) / 200;

@@ -245,9 +245,9 @@ p {
   }
 
   .yellowbox {
-    background: rgba(103, 88, 135, 0.73);
-    backdrop-filter: brightness(108%) blur(5px);
-    -webkit-backdrop-filter: brightness(108%) blur(5px);
+    background: rgba(57, 42, 88, 0.8);
+    backdrop-filter: brightness(300%) blur(6px);
+    -webkit-backdrop-filter: brightness(300%) blur(6px);
 
     position: relative;
     padding: 10px;
@@ -256,6 +256,12 @@ p {
     margin-left: 20%;
     margin-bottom: -17px;
     z-index: 3;
+    color: white;
+
+    @at-root .isChrome .yellowbox {
+      background: rgba(57, 42, 88, 0.85);
+
+    }
 
     .title {
       font-size: 18px;
