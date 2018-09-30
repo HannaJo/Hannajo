@@ -44,5 +44,9 @@
 
     {% include analytics.html %}
 
+    <script>
+      if (/Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor))
+        document.body.classList.add('isChrome')
+    </script>
   </body>
 </html>

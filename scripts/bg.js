@@ -1,6 +1,5 @@
 
-if (/Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor))
-  document.body.classList.add('isChrome')
+
 
 let lastTopPosition = -1;
 const ANIMATION = 200;
