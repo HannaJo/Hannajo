@@ -37,7 +37,7 @@ function onUpdate() {
     const textAnim = clamp(topPosition, 0, HEADER_HEIGHT) / HEADER_HEIGHT;
     const textColorAnim = clamp(topPosition - 150, 0, 200) / 200;
 
-    const bigLogoSize = clamp(windowWidth * 0.6, 0, 225);
+    const bigLogoSize = clamp(windowWidth * 0.6, 0, 256);
     const smallLogoSize = 45;
     const logoSize = lerp(bigLogoSize, smallLogoSize, logoAnim);
     logoElm.style.width = logoSize + 'px';

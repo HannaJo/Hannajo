@@ -68,8 +68,8 @@
     display: block;
     width: 55vw;
     height: 55vw;
-    max-width: 225px;
-    max-height: 225px;
+    max-width: 256px;
+    max-height: 256px;
     position: fixed;
     will-change: left, top, width, height;
     top: -1000px;
@@ -79,7 +79,7 @@
   .name {
     color: rgb(57, 42, 88);
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     position: fixed;
     will-change: right, top, font-size, color;
     top: 1000px;
