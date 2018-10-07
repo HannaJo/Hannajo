@@ -134,10 +134,7 @@
 
     transform: translateY(30px);
     #topbar-mobile-arrow {
-      svg path {
-        d: path("M32 2L16.5 14L1 2");
-        d:"M32 2L16.5 14L1 2";
-      }
+      transform: scaleY(-1);
     }
   }
 
@@ -146,11 +143,6 @@
   }
 
   #topbar-mobile-arrow  {
-    svg path {
-      transition: all 0.4s;
-      transition-timing-function: ease-in-out;
-    }
-
     &:hover {
       background: none;
     }
