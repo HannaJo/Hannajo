@@ -25,7 +25,7 @@ function onUpdate() {
   {
     lastTopPosition = topPosition;
 
-    const topX2 = topPosition * 2;
+    const topX2 = topPosition * 4;
     const windowWidth = window.innerWidth;
 
     const bgElm = document.getElementById('bg');
