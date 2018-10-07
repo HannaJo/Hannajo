@@ -127,6 +127,12 @@
     top: 0;
   }
 
+  #topbar-mobile-arrow {
+    svg {
+      transition: transform 0.4s;
+    }
+  }
+
   &.active {
     &::after {
       opacity: 1;
