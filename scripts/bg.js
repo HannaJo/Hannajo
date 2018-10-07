@@ -69,3 +69,13 @@ requestAnimationFrame(onUpdate);
 window.onresize = function() {
   lastTopPosition = -1;
 };
+
+document.addEventListener("DOMContentLoaded", function(event) {
+  const topbar = document.getElementById('topbar-mobile')
+  const arrow = document.getElementById('topbar-mobile-arrow')
+
+  arrow.addEventListener('click', function(e){
+    e.preventDefault();
+    topbar.classList.toggle('active');
+ });
+});
