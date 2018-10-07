@@ -118,14 +118,18 @@
     display: block;
   }
 
-  .arrow {
+  #topbar-mobile-arrow  {
     svg path {
       transition: all 0.5s;
     }
+  }
 
-    svg:hover path {
-      d: path("M5,5 L50,50 l30,-20z");
-      d:"M5,5 L50,50 l30,-20z";
+  &.active {
+    #topbar-mobile-arrow {
+      svg:hover path {
+        d: path("M5,5 L50,50 l30,-20z");
+        d:"M5,5 L50,50 l30,-20z";
+      }
     }
   }
 
