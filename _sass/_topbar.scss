@@ -134,7 +134,9 @@
 
     transform: translateY(30px);
     #topbar-mobile-arrow {
-      transform: scaleY(-1);
+      svg {
+        transform: scaleY(-1);
+      }
     }
   }
 
