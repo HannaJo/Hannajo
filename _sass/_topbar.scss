@@ -111,7 +111,7 @@
   margin: 0;
   display: none;
   transform: translateY(150px);
-  transition: 0.3s;
+  transition: 0.4s;
 
   @include mobile {
     display: block;
@@ -126,7 +126,7 @@
   &.active {
     transform: translateY(0px);
     #topbar-mobile-arrow {
-      svg:hover path {
+      svg path {
         d: path("M32 2L14 2L1 2");
         d:"M32 2L14 2L1 2";
       }
@@ -135,7 +135,7 @@
 
   a {
     line-height: 50px;
-    padding: 0 4vw;
+    padding: 0;
     color: #333;
     font-weight: 400;
     letter-spacing: 1px;
