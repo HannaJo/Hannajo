@@ -79,4 +79,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
     e.preventDefault();
     topbar.classList.toggle('active');
  });
+
+ const bgElm = document.getElementById('bg');
+ bgElm.width = (window.outerWidth + 100) + 'px'
+ bgElm.height = (window.outerHeight + 100) + 'px'
+ bgElm.right = 'auto'
+ bgElm.bottom = 'auto'
 });
