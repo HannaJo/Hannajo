@@ -127,8 +127,8 @@
   &.active {
     #topbar-mobile-arrow {
       svg:hover path {
-        d: path("M5,5 L50,50 l30,-20z");
-        d:"M5,5 L50,50 l30,-20z";
+        d: path("M32 2L14 2L1 2");
+        d:"M32 2L14 2L1 2";
       }
     }
   }
