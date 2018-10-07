@@ -54,7 +54,7 @@ function onUpdate() {
     const textSize = lerp(bigTextSize, smallTextSize, textAnim);
 
     nameElm.style.fontSize = textSize + 'px';
-    nameElm.style.top = lerp(45 + logoSize, 1, textAnim) + 'px';
+    nameElm.style.top = lerp(-15 + logoSize, 1, textAnim) + 'px';
     const nameWidth2 = nameElm.clientWidth / 2;
     nameElm.style.right = lerp(windowWidth / 2 - nameWidth2, 16, textAnim) + 'px';
 
