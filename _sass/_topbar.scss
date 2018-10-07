@@ -115,8 +115,8 @@
   transition-timing-function: cubic-bezier(.53,.01,.38,1.54);
 
   &::after {
-    box-shadow: 0px 0px 20px rgba(145, 129, 112, 0.5);
-    opacity: 0.5;
+    box-shadow: 0px 0px 30px rgba(145, 129, 112, 0.7);
+    opacity: 0.3;
     transition: opacity 0.2s ease-in-out;
   }
 
