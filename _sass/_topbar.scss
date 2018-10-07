@@ -110,8 +110,8 @@
   z-index: 100;
   margin: 0;
   display: none;
-  transform: translateY(150px);
-  transition: 0.4s;
+  transform: translateY(200px);
+  transition: 0.2s;
   transition-timing-function: cubic-bezier(.53,.01,.38,1.54);
 
   @include mobile {
@@ -120,13 +120,13 @@
 
   #topbar-mobile-arrow  {
     svg path {
-      transition: all 0.4s;
+      transition: all 0.2s;
       transition-timing-function: cubic-bezier(.53,.01,.38,1.54);
     }
   }
 
   &.active {
-    transform: translateY(0px);
+    transform: translateY(30px);
     #topbar-mobile-arrow {
       svg path {
         d: path("M32 2L16.5 14L1 2");
