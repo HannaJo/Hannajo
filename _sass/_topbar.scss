@@ -106,13 +106,33 @@
   display: flex;
   position: fixed;
   background: #fff;
-  box-shadow: 0px 0px 20px rgba(145, 129, 112, 0.25);
   z-index: 100;
   margin: 0;
   display: none;
   transform: translateY(200px);
+  padding-bottom: 50px;
   transition: 0.2s;
   transition-timing-function: cubic-bezier(.53,.01,.38,1.54);
+
+  &::after {
+    box-shadow: 0px 0px 20px rgba(145, 129, 112, 0.5);
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  &.active {
+    &::after {
+      opacity: 1;
+    }
+
+    transform: translateY(30px);
+    #topbar-mobile-arrow {
+      svg path {
+        d: path("M32 2L16.5 14L1 2");
+        d:"M32 2L16.5 14L1 2";
+      }
+    }
+  }
 
   @include mobile {
     display: block;
@@ -122,16 +142,6 @@
     svg path {
       transition: all 0.2s;
       transition-timing-function: cubic-bezier(.53,.01,.38,1.54);
-    }
-  }
-
-  &.active {
-    transform: translateY(30px);
-    #topbar-mobile-arrow {
-      svg path {
-        d: path("M32 2L16.5 14L1 2");
-        d:"M32 2L16.5 14L1 2";
-      }
     }
   }
 
