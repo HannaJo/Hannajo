@@ -111,6 +111,7 @@
   margin: 0;
   display: none;
   transform: translateY(150px);
+  transition: 0.3s;
 
   @include mobile {
     display: block;
