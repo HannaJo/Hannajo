@@ -24,6 +24,8 @@ function onUpdate() {
   if (topPosition !== lastTopPosition)
   {
     lastTopPosition = topPosition;
+
+    const topX2 = topPosition * 2;
     const windowWidth = window.innerWidth;
 
     const bgElm = document.getElementById('bg');
@@ -32,9 +34,9 @@ function onUpdate() {
     const nameElm = document.getElementById('topbar-name');
 
     const HEADER_HEIGHT = 350;
-    const logoAnim = clamp(topPosition, 0, HEADER_HEIGHT) / HEADER_HEIGHT;
-    const textAnim = clamp(topPosition, 0, HEADER_HEIGHT) / HEADER_HEIGHT;
-    const textColorAnim = clamp(topPosition - 150, 0, 200) / 200;
+    const logoAnim = clamp(topX2, 0, HEADER_HEIGHT) / HEADER_HEIGHT;
+    const textAnim = clamp(topX2, 0, HEADER_HEIGHT) / HEADER_HEIGHT;
+    const textColorAnim = clamp(topX2 - 150, 0, 200) / 200;
 
     const bigLogoSize = 256;
     const smallLogoSize = 45;
@@ -60,7 +62,7 @@ function onUpdate() {
     // nameElm.style.color = `rgb(${lightness},${lightness},${lightness})`;
 
     bgElm.style.opacity = 1 - clamp(topPosition, 0, 200) / 200;
-    topbarElm.style.opacity = clamp(topPosition - 200, 0, 200) / 200;
+    topbarElm.style.opacity = clamp(topX2 - 200, 0, 200) / 200;
   }
 }
 
