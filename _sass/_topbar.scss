@@ -101,18 +101,16 @@
 
 
 ._topbar-mobile {
-  height: 60px;
   width: 100%;
   bottom: 0;
   display: flex;
   position: fixed;
   background: #fff;
-  align-items: center;
-  justify-content: center;
   box-shadow: 0px 0px 20px rgba(145, 129, 112, 0.25);
   z-index: 100;
   margin: 0;
   display: none;
+  transform: translateY(150px);
 
   @include mobile {
     display: block;
@@ -125,6 +123,7 @@
   }
 
   &.active {
+    transform: translateY(0px);
     #topbar-mobile-arrow {
       svg:hover path {
         d: path("M32 2L14 2L1 2");
@@ -141,6 +140,7 @@
     letter-spacing: 1px;
     display: block;
     transition: 0.2s;
+    text-align: center;
 
     :hover {
       color: $blue;
