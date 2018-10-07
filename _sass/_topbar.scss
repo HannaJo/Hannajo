@@ -156,8 +156,11 @@
     transition: 0.2s;
     transition-timing-function: ease-in-out;
 
-    :hover {
-      color: $blue;
+    &:hover {
+      background: rgba(72, 54, 102, 0.231);
+    }
+    &:active {
+      background: rgba(72, 54, 102, 0.231);
     }
   }
 }
