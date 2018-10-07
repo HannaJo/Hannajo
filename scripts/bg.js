@@ -25,7 +25,7 @@ function onUpdate() {
   {
     lastTopPosition = topPosition;
 
-    const topX2 = topPosition * 4;
+    const topX2 = topPosition * 2;
     const windowWidth = window.innerWidth;
 
     const bgElm = document.getElementById('bg');
@@ -79,10 +79,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
     e.preventDefault();
     topbar.classList.toggle('active');
  });
-
- const bgElm = document.getElementById('bg');
- bgElm.style.width = (window.outerWidth + 100) + 'px'
- bgElm.style.height = (window.outerHeight + 100) + 'px'
- bgElm.style.right = 'auto'
- bgElm.style.bottom = 'auto'
 });
