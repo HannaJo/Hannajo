@@ -74,9 +74,15 @@ window.onresize = function() {
 document.addEventListener("DOMContentLoaded", function(event) {
   const topbar = document.getElementById('topbar-mobile')
   const arrow = document.getElementById('topbar-mobile-arrow')
+  const arrowPath = document.getElementById('topbar-mobile-arrow')
 
   arrow.addEventListener('click', function(e){
     e.preventDefault();
-    topbar.classList.toggle('active');
+    const result = topbar.classList.toggle('active');
+
+    const ua = navigator.userAgent.toLowerCase();
+    if (ua.indexOf('safari') != -1) {
+      arrowPath.setAttribute('d', result ? 'M32 14L16.5 2L1 14' : 'M32 2L16.5 14L1 2')
+    }
  });
 });
