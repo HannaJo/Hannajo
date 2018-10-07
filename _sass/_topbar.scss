@@ -112,16 +112,17 @@
   display: none;
   transform: translateY(150px);
   transition: 0.4s;
+  transition-timing-function: cubic-bezier(.53,.01,.38,1.54);
 
   @include mobile {
     display: block;
   }
 
   #topbar-mobile-arrow  {
-    transition-timing-function: cubic-bezier(.62,-0.25,.54,1.28);
-    // svg path {
-    //   transition: all 0.5s;
-    // }
+    svg path {
+      transition: all 0.4s;
+      transition-timing-function: cubic-bezier(.53,.01,.38,1.54);
+    }
   }
 
   &.active {
@@ -141,8 +142,9 @@
     font-weight: 400;
     letter-spacing: 1px;
     display: block;
-    transition: 0.2s;
     text-align: center;
+    transition: 0.2s;
+    transition-timing-function: cubic-bezier(.42,0,.58,1);
 
     :hover {
       color: $blue;
