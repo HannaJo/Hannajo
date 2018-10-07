@@ -31,13 +31,12 @@ function onUpdate() {
     const logoElm = document.getElementById('topbar-logo');
     const nameElm = document.getElementById('topbar-name');
 
-
     const HEADER_HEIGHT = 350;
     const logoAnim = clamp(topPosition, 0, HEADER_HEIGHT) / HEADER_HEIGHT;
     const textAnim = clamp(topPosition, 0, HEADER_HEIGHT) / HEADER_HEIGHT;
     const textColorAnim = clamp(topPosition - 150, 0, 200) / 200;
 
-    const bigLogoSize = clamp(windowWidth * 0.6, 0, 256);
+    const bigLogoSize = 256;
     const smallLogoSize = 45;
     const logoSize = lerp(bigLogoSize, smallLogoSize, logoAnim);
     logoElm.style.width = logoSize + 'px';
@@ -49,12 +48,12 @@ function onUpdate() {
     logoElm.style.top = lerp(30, 7, logoAnim) + 'px';
 
 
-    const bigTextSize = clamp(windowWidth * 0.08, 20, 40);
+    const bigTextSize = 44;
     const smallTextSize = 20;
     const textSize = lerp(bigTextSize, smallTextSize, textAnim);
 
     nameElm.style.fontSize = textSize + 'px';
-    nameElm.style.top = lerp(60 + logoSize, 1, textAnim) + 'px';
+    nameElm.style.top = lerp(23 + logoSize, 1, textAnim) + 'px';
     const nameWidth2 = nameElm.clientWidth / 2;
     nameElm.style.right = lerp(windowWidth / 2 - nameWidth2, 16, textAnim) + 'px';
 
