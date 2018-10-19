@@ -120,6 +120,7 @@ fields:
   label: Bild galleri
   name: imageGallery
 pages:
+- _posts/det-kliar-i-fingrarna.md
 - _posts/ett-rum.md
 - _posts/capellagården.md
 - _posts/2018-09-21-Verkstaden.md
