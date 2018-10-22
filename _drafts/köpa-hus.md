@@ -1,8 +1,8 @@
 ---
 title: Köpa hus
-yellowLeft: 10
+yellowLeft: 50
 yellowOverlap: -20
-image1Left: 0
+image1Left: 50
 image1Overlap: 0
 image1Width: 80
 image2Left: 90
@@ -16,8 +16,8 @@ date: 2018-10-22 10:14:34 +0200
 yellowTitle: Vi har budat på ett hus
 yellowContent: och det känns helt galet! Det gick liksom så fort och så var det gjort.
   Nu vänta vi i ivrigt på besked.
-image1: "/uploads/2018/10/22/25265788.jpg"
-image2: "/uploads/2018/10/22/image.png"
+image1: "/uploads/2018/10/22/25265788-2.jpg"
+image2: ''
 image3: ''
 headerMaxHeight: ''
 
