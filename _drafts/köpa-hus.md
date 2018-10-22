@@ -6,10 +6,10 @@ image1Left: 50
 image1Overlap: 0
 image1Width: 80
 image2Left: 90
-image2Overlap: -30
+image2Overlap: -20
 image2Width: 70
 image3Left: 10
-image3Overlap: -60
+image3Overlap: -50
 image3Width: 70
 imageGallery: []
 date: 2018-10-22 10:14:34 +0200
