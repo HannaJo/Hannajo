@@ -7,10 +7,10 @@ image1Overlap: 0
 image1Width: 80
 image2Left: 0
 image2Overlap: -10
-image2Width: 50
+image2Width: 25
 image3Left: 10
-image3Overlap: -70
-image3Width: 70
+image3Overlap: -50
+image3Width: 40
 imageGallery: []
 date: 2018-10-22 10:14:34 +0200
 yellowTitle: Vi har budat på ett hus
@@ -22,4 +22,4 @@ image3: "/uploads/2018/10/22/25265811.jpg"
 headerMaxHeight: ''
 
 ---
-För en tid sen började vi prata här hemma om att säga upp lägenheten. Det är alldeles för dyr för oss. Om vi någonsin vill komma vidare måste vi börja spara och set är för svårt här. Dessutom är vi otroligt dåliga på att spara.
+För en tid sen började vi prata här hemma om att säga upp lägenheten. Det är alldeles för dyr för oss. Om vi någonsin vill komma vidare måste vi börja spara och det är för svårt här. Dessutom är vi otroligt dåliga på att spara.
