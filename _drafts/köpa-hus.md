@@ -1,6 +1,6 @@
 ---
 title: Köpa hus
-yellowLeft: 50
+yellowLeft: 0
 yellowOverlap: -20
 image1Left: 50
 image1Overlap: 0
@@ -22,3 +22,4 @@ image3: ''
 headerMaxHeight: ''
 
 ---
+För en tid sen började vi prata här hemma om att säga upp lägenheten. Det är alldeles för dyr för oss. Om vi någonsin vill komma vidare måste vi börja spara och set är för svårt här. Dessutom är vi otroligt dåliga på att spara.
