@@ -17,9 +17,11 @@ yellowTitle: Vi har budat på ett hus
 yellowContent: och det känns helt galet! Det gick liksom så fort och så var det gjort.
   Nu vänta vi i ivrigt på besked.
 image1: "/uploads/2018/10/22/25265788-2.jpg"
-image2: "/uploads/2018/10/22/25265806.jpg"
-image3: "/uploads/2018/10/22/25265811.jpg"
+image2: ''
+image3: ''
 headerMaxHeight: ''
 
 ---
-För en tid sen började vi prata här hemma om att säga upp lägenheten. Det är alldeles för dyr för oss. Om vi någonsin vill komma vidare måste vi börja spara ochet är för svårt här. Dessutom är vi otroligt dåliga på att spara.
+För en tid sen började vi prata här hemma om att säga upp lägenheten. Vi har länge längtat ut till landsbygden.   
+  
+Det största dilemmat för oss 
