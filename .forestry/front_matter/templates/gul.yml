@@ -120,7 +120,7 @@ fields:
   label: Bild galleri
   name: imageGallery
 pages:
-- _posts/köpa-hus.md
+- _posts/2018-10-22-köpa-hus.md
 - _posts/3-dimensioner.md
 - _posts/det-kliar-i-fingrarna.md
 - _posts/ett-rum.md
