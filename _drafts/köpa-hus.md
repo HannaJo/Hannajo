@@ -22,6 +22,4 @@ image3: ''
 headerMaxHeight: ''
 
 ---
-För en tid sen började vi prata här hemma om att säga upp lägenheten. Vi har länge längtat ut till landsbygden.   
-  
-Det största dilemmat för oss 
+För en tid sen började vi prata här hemma om att säga upp lägenheten. Vi har länge längtat ut till landsbygden. 
