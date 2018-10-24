@@ -120,6 +120,7 @@ fields:
   label: Bild galleri
   name: imageGallery
 pages:
+- _posts/kontrakt.md
 - _posts/kontraktet.md
 - _posts/2018-10-22-köpa-hus.md
 - _posts/3-dimensioner.md
