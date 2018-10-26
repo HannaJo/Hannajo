@@ -13,5 +13,15 @@ image3Overlap: 0
 image3Width: 100
 imageGallery: []
 date: 2018-10-24 12:31:32 +0200
+yellowTitle: 'Det är sant och det står skrivet '
+yellowContent: Nu är huset vårt! Vi är husägare och vi är adrenalinpumpade som bara
+  den.
+image1: ''
+image2: ''
+image3: ''
+headerMaxHeight: ''
 
 ---
+Det känns helt galet. Det har varit som ett vakuum sen vi la budet. vi fick vänta utan besked hela helgen och så plötsligt på måndagen fick vi samtalet om att budet blev godtaget och huset var vårt om ville ha det.
+
+Imorse tidigt gick vi upp och åkte från Örebro för att skriva kontrakt. Och så nu står vi här med ett huskontrakt i handen. I teorin är vi nu alltså Husägare. 
