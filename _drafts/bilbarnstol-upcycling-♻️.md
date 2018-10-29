@@ -9,7 +9,7 @@ image2Left: 50
 image2Overlap: -20
 image2Width: 50
 image3Left: 0
-image3Overlap: 0
+image3Overlap: -10
 image3Width: 100
 imageGallery: []
 date: 2018-10-29 10:52:00 +0100
