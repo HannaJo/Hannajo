@@ -120,13 +120,13 @@ fields:
   label: Bild galleri
   name: imageGallery
 pages:
-- _posts/bilbarnstol-upcycling-♻️-copy.md
-- _posts/2018-10-29-bilbarnstol-upcycling-♻️.md
-- _posts/2018-10-24-kontrakt.md
 - _posts/2018-10-22-köpa-hus.md
-- _posts/3-dimensioner.md
-- _posts/det-kliar-i-fingrarna.md
+- _posts/2018-10-24-kontrakt.md
+- _posts/2018-10-29-bilbarnstol-upcycling-♻️.md
+- _posts/bilbarnstol-upcycling-♻️-copy.md
 - _posts/ett-rum.md
+- _posts/det-kliar-i-fingrarna.md
+- _posts/3-dimensioner.md
 - _posts/capellagården.md
 - _posts/2018-09-21-Verkstaden.md
 - _posts/2017-4-26-Bilder.md
