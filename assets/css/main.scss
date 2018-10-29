@@ -1,9 +1,10 @@
+---
+---
 
- // IMPORTS MP
 @import 'reset';
 @import 'variables';
 @import 'topbar';
-@import 'contactPage'; /* ************ */ /* BASE RULES */ /* ************ */
+@import 'contactPage';
 html {
   font-size: 100%;
 }
@@ -121,7 +122,8 @@ p {
 }
 .clearfix:after {
   clear: both;
-} /* ******************* */ /* LAYOUT / SECTIONS */ /* ******************* */ ** // .masthead st
+} /* ******************* */ /* LAYOUT / SECTIONS */ /* ******************* */
+** // .masthead st
 .wrapper-masthead {
   margin-bottom: 50px;
 }
@@ -171,7 +173,6 @@ p {
     margin: 3px 0;
   }
 }
- }
 // .main  .
 .posts > .post {
   padding-bottom: 60px; // border-bottom: 1px solid $lightGray;
@@ -204,7 +205,6 @@ p {
     @at-root .isChrome .yellowbox {
       background: rgba(57, 42, 88, 0.85);
     }
-
     .title {
       font-size: 18px;
       font-weight: bold;

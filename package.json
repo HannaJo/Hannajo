@@ -6,6 +6,8 @@
   "author": "Jeremi Stadler <stadler.jeremi@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "jekyll serve"
+    "startall":
+      "jekyll serve --watch --drafts --unpublished --future --incremental",
+    "start": "jekyll serve --watch --incremental"
   }
 }
