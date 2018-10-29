@@ -4,12 +4,12 @@ yellowLeft: 20
 yellowOverlap: 5
 image1Left: 10
 image1Overlap: 0
-image1Width: 50
+image1Width: 55
 image2Left: 75
-image2Overlap: -25
+image2Overlap: -30
 image2Width: 50
 image3Left: 50
-image3Overlap: 10
+image3Overlap: 0
 image3Width: 70
 imageGallery: []
 date: 2018-10-29 10:52:00 +0100
