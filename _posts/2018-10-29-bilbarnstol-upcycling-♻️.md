@@ -1,7 +1,7 @@
 ---
 title: bilbarnstol - upcycling ♻️
-yellowLeft: 50
-yellowOverlap: 0
+yellowLeft: 20
+yellowOverlap: 5
 image1Left: 10
 image1Overlap: 0
 image1Width: 50
