@@ -1,16 +1,16 @@
 ---
 title: bilbarnstol - upcycling ♻️
-yellowLeft: 40
+yellowLeft: 70
 yellowOverlap: -20
-image1Left: 0
+image1Left: 5
 image1Overlap: 0
 image1Width: 50
-image2Left: 50
+image2Left: 80
 image2Overlap: -20
 image2Width: 50
 image3Left: 0
-image3Overlap: -10
-image3Width: 100
+image3Overlap: 10
+image3Width: 70
 imageGallery: []
 date: 2018-10-29 10:52:00 +0100
 yellowTitle: dags med ny bilbarnstol!
