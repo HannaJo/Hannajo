@@ -18,6 +18,7 @@ layout: home
       style="left: {{page.image1Left}}%;
              transform: translate(-{{page.image1Left}}%, {{page.image1Overlap}}%);
              max-width: {{page.image1Width}}%;
+             z-index: {{page.image1zIndex | default: 0 }};
              "
     />
     {% endif %}
@@ -40,6 +41,7 @@ layout: home
         style="left: {{page.image3Left}}%;
                transform: translate(-{{page.image3Left}}%, {{page.image3Overlap}}%);
                max-width: {{page.image3Width}}%;
+               z-index: {{page.image3zIndex | default: 0 }};
                "
     />
     {% endif %}
