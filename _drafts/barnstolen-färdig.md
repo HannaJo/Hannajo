@@ -21,6 +21,6 @@ image2: "/uploads/2018/11/04/image.png"
 image3: ''
 headerMaxHeight: ''
 bild2_zindex: 1
-image2zIndex: 1
+image2zIndex: -1
 
 ---
