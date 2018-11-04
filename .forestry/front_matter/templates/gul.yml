@@ -54,6 +54,9 @@ fields:
     min: '1'
     max: '100'
   default: '100'
+- type: number
+  name: image1zIndex
+  label: bild 1 z-index
 - type: file
   label: bild 2
   name: image2
@@ -122,6 +125,9 @@ fields:
     min: '20'
     max: '999'
     step: '1'
+- type: number
+  name: image3zIndex
+  label: bild 3 z-index
 - type: image_gallery
   default: []
   label: Bild galleri
