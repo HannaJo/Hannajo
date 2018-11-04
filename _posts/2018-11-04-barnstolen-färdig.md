@@ -7,7 +7,7 @@ image1Overlap: 5
 image1Width: 60
 image2Left: 85
 image2Overlap: -25
-image2Width: 40
+image2Width: 45
 image3Left: ''
 image3Overlap: ''
 image3Width: 100
