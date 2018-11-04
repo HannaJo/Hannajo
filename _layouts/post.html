@@ -29,6 +29,7 @@ layout: home
       style="left: {{page.image2Left}}%;
              transform: translate(-{{page.image2Left}}%, {{page.image2Overlap}}%);
              max-width: {{page.image2Width}}%;
+             z-index: {{page.image2zIndex | default: 0 }};
              "
     />
     {% endif %}

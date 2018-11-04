@@ -172,8 +172,7 @@ p {
   @include mobile {
     margin: 3px 0;
   }
-}
-// .main  .
+} // .main  .
 .posts > .post {
   padding-bottom: 60px; // border-bottom: 1px solid $lightGray;
 }
@@ -196,7 +195,7 @@ p {
     -webkit-backdrop-filter: brightness(300%) blur(6px);
     position: relative;
     padding: 10px;
-    max-width: 410px;
+    max-width: 50%;
     border-radius: 3px;
     margin-right: 10px;
     margin-bottom: -17px;
