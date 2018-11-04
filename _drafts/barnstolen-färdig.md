@@ -21,8 +21,8 @@ image2: "/uploads/2018/11/04/IMG_1502-1.jpg"
 image3: ''
 headerMaxHeight: ''
 bild2_zindex: 1
-image2zIndex: 1
-image1zIndex: 2
+image2zIndex: 2
+image1zIndex: 1
 image3zIndex: ''
 
 ---
