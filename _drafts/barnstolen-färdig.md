@@ -5,9 +5,9 @@ yellowOverlap: -20
 image1Left: 5
 image1Overlap: ''
 image1Width: 40
-image2Left: 40
-image2Overlap: -30
-image2Width: 90
+image2Left: 70
+image2Overlap: -15
+image2Width: 70
 image3Left: ''
 image3Overlap: ''
 image3Width: 100
