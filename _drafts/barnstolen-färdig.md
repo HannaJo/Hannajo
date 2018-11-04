@@ -2,7 +2,7 @@
 title: barnstolen färdig
 yellowLeft: 10
 yellowOverlap: -20
-image1Left: 10
+image1Left: 5
 image1Overlap: ''
 image1Width: 40
 image2Left: 40
