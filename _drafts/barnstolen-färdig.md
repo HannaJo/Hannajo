@@ -28,10 +28,6 @@ image3zIndex: ''
 ---
 ![](/uploads/2018/11/04/image-1.png)
 
-bild 1
-
 ![](/uploads/2018/11/04/image-2.png)
 
-bild 2
-
-![](/uploads/2018/11/04/image-3.png) bild 3
+![](/uploads/2018/11/04/image-3.png) 
