@@ -81,6 +81,13 @@ fields:
     min: '1'
     max: '100'
   default: '100'
+- type: number
+  name: image2zIndex
+  label: bild 2 z-index
+  config:
+    min: "-10"
+    max: '10'
+    step: '1'
 - type: file
   label: bild 3
   name: image3
@@ -120,10 +127,10 @@ fields:
   label: Bild galleri
   name: imageGallery
 pages:
+- _posts/barnstolen-färdig.md
 - _posts/2018-10-29-bilbarnstol-upcycling-♻️.md
 - _posts/2018-10-22-köpa-hus.md
 - _posts/2018-10-24-kontrakt.md
-- _posts/bilbarnstol-upcycling-♻️-copy.md
 - _posts/ett-rum.md
 - _posts/det-kliar-i-fingrarna.md
 - _posts/3-dimensioner.md
