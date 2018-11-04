@@ -82,7 +82,7 @@ fields:
     max: '100'
   default: '100'
 - type: number
-  name: bild2_zindex
+  name: image2zIndex
   label: bild 2 z-index
   config:
     min: "-10"
